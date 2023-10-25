@@ -1,0 +1,119 @@
+.toggle-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #45a049;
+}
+
+.gender-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.male-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.female-button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.gender-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fabric .empimg {
+  background-color: #0078d6;
+}
+.material .empimg {
+  background-color: #e3165b;
+}
+.highcontrast .empimg {
+  background-color: #ffd939;
+}
+_:-ms-fullscreen,
+:root .highcontrast .e-userimg.sf-icon-Male::before,
+_:-ms-fullscreen,
+:root .highcontrast .e-userimg.sf-icon-FeMale::before {
+  color: black;
+}
+.highcontrast .e-userimg.sf-icon-Male::before,
+.highcontrast .e-userimg.sf-icon-FeMale::before {
+  color: black;
+}
+.bootstrap .empimg {
+  background-color: #0078d6;
+}
+
+.bootstrap4 .empimg,
+.bootstrap5 .empimg {
+  background-color: #0078d6;
+}
+
+.tailwind .empimg {
+  background-color: #4f46e5;
+}
+
+.fluent .empimg {
+  background-color: #106ebe;
+}
+
+#Emptext {
+  top: -12px;
+  left: 41px;
+  position: relative;
+}
+.empimg {
+  height: 27px;
+  width: 29px;
+  border-radius: 14px;
+  background-color: #e3165b;
+}
+#overviewgrid.e-rtl #Emptext {
+  top: -12px;
+  left: -41px;
+  position: relative;
+}
+
+.e-icons.sf-icon-Male::before,
+.e-icons.sf-icon-FeMale::before {
+  font-size: 13px;
+}
+.e-icons.sf-icon-Male,
+.e-icons.sf-icon-FeMale {
+  margin: 0px 8px;
+  line-height: 26px;
+  color: white;
+  font-size: 13px;
+}
+
+.e-icons.sf-icon-Male::before {
+  content: "\e306";
+}
+.e-icons.sf-icon-FeMale::before {
+  content: "\e300";
+}
